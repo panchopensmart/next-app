@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Htag tag='h1'>Текст</Htag>
-      <Button appearance='primary' className='test'>Кнопка</Button>
+      <Button appearance='primary' className='test' arrow='right'>Кнопка</Button>
       <Button appearance='ghost'>Кнопка</Button>
     </>
   )
