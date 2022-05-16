@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Button, Htag, Paragragh } from '../components'
+import { Button, Htag, Paragragh, Tag } from '../components'
 
 export default function Home() {
   return (
@@ -11,6 +11,10 @@ export default function Home() {
       <Paragragh size='l'>Большой</Paragragh>
       <Paragragh>Средний</Paragragh>
       <Paragragh size='m'>Маленький</Paragragh>
+      <Tag size='s'>TEXT</Tag>
+      <Tag size='m' color='red'>TEXT</Tag>
+      <Tag size='m' color='green'>TEXT</Tag>
+      <Tag color='primary'>TEXT</Tag>
     </>
   )
 }
