@@ -1,6 +1,22 @@
-p {
+.Paragraph {
+    margin: 0px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #3B434E;
+}
+
+.s {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.m {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.l {
+    font-size: 18px;
+    line-height: 29px;
 }
